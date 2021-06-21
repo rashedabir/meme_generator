@@ -76,8 +76,8 @@ function Mimes() {
           </form>
           {data ? null : <ImageCart mime={template} />}
           {data ? (
-            <div className="col py-5 text-center mx-auto">
-              <img width="400px" src={data} alt={data} />
+            <div className="col pb-5 text-center mx-auto">
+              <img className="img-fluid" width="400px" src={data} alt={data} />
             </div>
           ) : null}
         </>
